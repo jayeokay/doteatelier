@@ -22,15 +22,18 @@
             <div class="row">
                 <div class="side">
                   <h2>Categories</h2>
-                  <select id="country" name="country">
-                    <option value="australia">Bracelets</option>
-                    <option value="canada">Rings</option>
-                    <option value="usa">Necklaces</option>
+                  <select id="category" name="category">
+                    <option value="all">All Products</option>
+                    <option value="bracelets">Bracelets</option>
+                    <option value="rings">Rings</option>
+                    <option value="necklaces">Necklaces</option>
+                    <option value="pins">Pins</option>
                   </select>
                 </div>
                 <div class="main">
-                    <h2 style="text-align:center">Bracelets</h2>
-                    <div class="column">
+                    <h2 style="text-align:center" id="product-category">All Products</h2>
+                    <!-- class columm per product -->
+                    <div class="column" id="bracelet" style="display: initial;">
                         <div class="card">
                         <img src="/w3images/team1.jpg" alt="productname1" style="width:100%">
                         <div class="container">
@@ -41,18 +44,18 @@
                         </div>
                         </div>
                     </div>
-                    <div class="column">
+                    <div class="column" id="bracelet" style="display: initial;">
                         <div class="card">
-                        <img src="/w3images/team2.jpg" alt="productname2" style="width:100%">
-                        <div class="container">
-                            <h2>Mike Ross</h2>
-                            <p class="title">Price</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p><button class="button">Add to bag</button></p>
-                        </div>
+                            <img src="/w3images/team2.jpg" alt="productname2" style="width:100%">
+                            <div class="container">
+                                <h2>Mike Ross</h2>
+                                <p class="title">Price</p>
+                                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                <p><button class="button">Add to bag</button></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="column">
+                    <div class="column" id="bracelet" style="display: initial;">
                         <div class="card">
                         <img src="/w3images/team3.jpg" alt="productname3" style="width:100%">
                         <div class="container">
