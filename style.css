@@ -15,6 +15,18 @@ background: #C7E2F9;
 color: white;
 }
 
+.banner {
+    padding: 0.02px;
+    background: #AED5FF;
+}
+
+.banner a, a:visited, a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
 /* Increase the font size of the h1 element */
 .name h1 {
 font-size: 40px;
