@@ -11,7 +11,7 @@ margin: 0;
 .name {
 padding: 80px;
 text-align: center;
-background: #1abc9c;
+background: #89CFF0;
 color: white;
 }
 
@@ -23,7 +23,7 @@ font-size: 40px;
 /* Style the top navigation bar */
 .navbar {
 overflow: hidden;
-background-color: #333;
+background-color: #666666;
 }
 
 /* Style the navigation bar links */
